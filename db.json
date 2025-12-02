@@ -1,454 +1,58 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "admin_master",
-      "email": "admin@codestudy.com",
-      "fullName": "System Administrator",
-      "avatar": "https://placehold.co/150/black/white?text=Admin",
-      "role": "admin",
-      "xpPoints": 9999,
-      "bio": "Full stack developer and platform administrator."
-    }
-  ],
   "courses": [
-    {
-      "id": 1,
-      "title": "HTML & CSS Fundamentals",
-      "slug": "html-css-fundamentals",
-      "description": "Learn the building blocks of the web. This course takes you from a blank text file to a fully responsive, multi-page website using semantic HTML5 and modern CSS3.",
-      "thumbnail": "https://placehold.co/600x400/orange/white?text=HTML+CSS",
-      "difficulty": "Beginner",
-      "category": "Frontend",
-      "price": 0,
-      "rating": 4.8,
-      "totalLessons": 4
-    },
-    {
-      "id": 2,
-      "title": "JavaScript Logic Masterclass",
-      "slug": "js-logic-masterclass",
-      "description": "Deep dive into algorithms, DOM manipulation, and modern ES6+ syntax. Understand how the browser executes code and how to write efficient scripts.",
-      "thumbnail": "https://placehold.co/600x400/yellow/black?text=JavaScript",
-      "difficulty": "Intermediate",
-      "category": "Frontend",
-      "price": 49.99,
-      "rating": 4.7,
-      "totalLessons": 4
-    },
-    {
-      "id": 3,
-      "title": "React.js: The Complete Guide",
-      "slug": "react-complete-guide",
-      "description": "Master React 18 with Hooks, Redux Toolkit, and React Router. Build a real-world e-commerce application from scratch.",
-      "thumbnail": "https://placehold.co/600x400/cyan/white?text=React",
-      "difficulty": "Intermediate",
-      "category": "Frontend",
-      "price": 59.99,
-      "rating": 4.9,
-      "totalLessons": 3
-    },
-    {
-      "id": 4,
-      "title": "Node.js & Express APIs",
-      "slug": "nodejs-express-apis",
-      "description": "Build fast, scalable RESTful APIs. Learn middleware, authentication with JWT, and database integration with MongoDB.",
-      "thumbnail": "https://placehold.co/600x400/green/white?text=NodeJS",
-      "difficulty": "Advanced",
-      "category": "Backend",
-      "price": 39.99,
-      "rating": 4.6,
-      "totalLessons": 3
-    },
-    {
-      "id": 5,
-      "title": "Python for Data Science",
-      "slug": "python-data-science",
-      "description": "Analyze data and create visualizations using Python, Pandas, and Matplotlib. Includes an introduction to Machine Learning logic.",
-      "thumbnail": "https://placehold.co/600x400/blue/white?text=Python",
-      "difficulty": "Beginner",
-      "category": "Data Science",
-      "price": 89.99,
-      "rating": 4.8,
-      "totalLessons": 3
-    },
-    {
-      "id": 6,
-      "title": "UI/UX Design with Figma",
-      "slug": "ui-ux-design-figma",
-      "description": "Learn to design beautiful user interfaces. Covers wireframing, prototyping, color theory, and typography standards.",
-      "thumbnail": "https://placehold.co/600x400/purple/white?text=Figma",
-      "difficulty": "Beginner",
-      "category": "Design",
-      "price": 29.99,
-      "rating": 4.5,
-      "totalLessons": 3
-    },
-    {
-      "id": 7,
-      "title": "DevOps: Docker & Kubernetes",
-      "slug": "devops-docker-kubernetes",
-      "description": "Containerize your applications and orchestrate them at scale. Essential skills for modern cloud deployment.",
-      "thumbnail": "https://placehold.co/600x400/007bff/white?text=DevOps",
-      "difficulty": "Advanced",
-      "category": "DevOps",
-      "price": 99.99,
-      "rating": 4.9,
-      "totalLessons": 3
-    },
-    {
-      "id": 8,
-      "title": "SQL Database Mastery",
-      "slug": "sql-database-mastery",
-      "description": "Understand relational databases. Write complex queries, joins, and stored procedures using PostgreSQL.",
-      "thumbnail": "https://placehold.co/600x400/333/white?text=SQL",
-      "difficulty": "Intermediate",
-      "category": "Backend",
-      "price": 35.00,
-      "rating": 4.4,
-      "totalLessons": 3
-    },
-    {
-      "id": 9,
-      "title": "Git & GitHub Bootcamp",
-      "slug": "git-github-bootcamp",
-      "description": "Version control is mandatory for developers. Learn branching, merging, rebasing, and resolving conflicts.",
-      "thumbnail": "https://placehold.co/600x400/f1502f/white?text=Git",
-      "difficulty": "Beginner",
-      "category": "Tools",
-      "price": 0,
-      "rating": 4.9,
-      "totalLessons": 3
-    },
-    {
-      "id": 10,
-      "title": "C# & .NET Core",
-      "slug": "csharp-net-core",
-      "description": "Build enterprise-grade applications with Microsoft's powerful framework. Covers OOP principles and API development.",
-      "thumbnail": "https://placehold.co/600x400/68217a/white?text=C%23",
-      "difficulty": "Advanced",
-      "category": "Backend",
-      "price": 55.00,
-      "rating": 4.6,
-      "totalLessons": 3
-    }
+    { "id": 1, "title": "HTML5 Mastery", "slug": "html5-mastery", "description": "Master the skeleton of the web.", "thumbnail": "https://placehold.co/600x400?text=HTML", "difficulty": "Beginner", "category": "Frontend", "price": 0, "rating": 4.8 },
+    { "id": 2, "title": "CSS3 Styling", "slug": "css3-styling", "description": "Learn Flexbox, Grid, and responsive design.", "thumbnail": "https://placehold.co/600x400?text=CSS", "difficulty": "Beginner", "category": "Frontend", "price": 10, "rating": 4.7 },
+    { "id": 3, "title": "Modern JavaScript", "slug": "modern-javascript", "description": "ES6+, Async/Await, and DOM manipulation.", "thumbnail": "https://placehold.co/600x400?text=JS", "difficulty": "Intermediate", "category": "Frontend", "price": 20, "rating": 4.9 },
+    { "id": 4, "title": "React.js Essentials", "slug": "react-essentials", "description": "Build modern SPAs with Hooks and Context.", "thumbnail": "https://placehold.co/600x400?text=React", "difficulty": "Intermediate", "category": "Frontend", "price": 50, "rating": 4.8 },
+    { "id": 5, "title": "Vue.js 3 Guide", "slug": "vue-guide", "description": "The progressive framework for building UIs.", "thumbnail": "https://placehold.co/600x400?text=Vue", "difficulty": "Intermediate", "category": "Frontend", "price": 30, "rating": 4.6 },
+    { "id": 6, "title": "Angular Bootcamp", "slug": "angular-bootcamp", "description": "TypeScript-based framework by Google.", "thumbnail": "https://placehold.co/600x400?text=Angular", "difficulty": "Advanced", "category": "Frontend", "price": 40, "rating": 4.5 },
+    { "id": 7, "title": "Node.js Backend", "slug": "nodejs-backend", "description": "Server-side JavaScript with Express.", "thumbnail": "https://placehold.co/600x400?text=Node", "difficulty": "Advanced", "category": "Backend", "price": 35, "rating": 4.7 },
+    { "id": 8, "title": "Python for Beginners", "slug": "python-beginners", "description": "Learn coding with the most readable language.", "thumbnail": "https://placehold.co/600x400?text=Python", "difficulty": "Beginner", "category": "Backend", "price": 0, "rating": 4.9 },
+    { "id": 9, "title": "Django Framework", "slug": "django-framework", "description": "The web framework for perfectionists.", "thumbnail": "https://placehold.co/600x400?text=Django", "difficulty": "Advanced", "category": "Backend", "price": 60, "rating": 4.6 },
+    { "id": 10, "title": "Java Spring Boot", "slug": "java-spring", "description": "Enterprise grade backend development.", "thumbnail": "https://placehold.co/600x400?text=Java", "difficulty": "Advanced", "category": "Backend", "price": 80, "rating": 4.8 },
+    { "id": 11, "title": "C# & .NET Core", "slug": "csharp-net", "description": "Microsoft's powerful cross-platform framework.", "thumbnail": "https://placehold.co/600x400?text=C%23", "difficulty": "Intermediate", "category": "Backend", "price": 55, "rating": 4.7 },
+    { "id": 12, "title": "Go (Golang)", "slug": "golang-basics", "description": "Build fast, reliable, and efficient software.", "thumbnail": "https://placehold.co/600x400?text=Go", "difficulty": "Intermediate", "category": "Backend", "price": 45, "rating": 4.8 },
+    { "id": 13, "title": "Rust Programming", "slug": "rust-programming", "description": "Memory safety without garbage collection.", "thumbnail": "https://placehold.co/600x400?text=Rust", "difficulty": "Hard", "category": "Backend", "price": 50, "rating": 4.9 },
+    { "id": 14, "title": "PHP Laravel", "slug": "php-laravel", "description": "Elegant syntax for web artisans.", "thumbnail": "https://placehold.co/600x400?text=PHP", "difficulty": "Intermediate", "category": "Backend", "price": 25, "rating": 4.4 },
+    { "id": 15, "title": "SQL Databases", "slug": "sql-databases", "description": "PostgreSQL and MySQL fundamentals.", "thumbnail": "https://placehold.co/600x400?text=SQL", "difficulty": "Beginner", "category": "Data", "price": 20, "rating": 4.6 },
+    { "id": 16, "title": "MongoDB NoSQL", "slug": "mongodb-nosql", "description": "Document-based database for modern apps.", "thumbnail": "https://placehold.co/600x400?text=Mongo", "difficulty": "Intermediate", "category": "Data", "price": 30, "rating": 4.5 },
+    { "id": 17, "title": "Data Science", "slug": "data-science", "description": "Pandas, NumPy, and Matplotlib.", "thumbnail": "https://placehold.co/600x400?text=Data", "difficulty": "Advanced", "category": "Data", "price": 90, "rating": 4.8 },
+    { "id": 18, "title": "Docker Containers", "slug": "docker-containers", "description": "Deploy applications anywhere.", "thumbnail": "https://placehold.co/600x400?text=Docker", "difficulty": "Intermediate", "category": "DevOps", "price": 40, "rating": 4.7 },
+    { "id": 19, "title": "Kubernetes", "slug": "kubernetes", "description": "Container orchestration at scale.", "thumbnail": "https://placehold.co/600x400?text=K8s", "difficulty": "Hard", "category": "DevOps", "price": 100, "rating": 4.9 },
+    { "id": 20, "title": "AWS Cloud", "slug": "aws-cloud", "description": "Cloud computing essentials.", "thumbnail": "https://placehold.co/600x400?text=AWS", "difficulty": "Advanced", "category": "DevOps", "price": 120, "rating": 4.8 },
+    { "id": 21, "title": "Figma Design", "slug": "figma-design", "description": "UI/UX design for developers.", "thumbnail": "https://placehold.co/600x400?text=Figma", "difficulty": "Beginner", "category": "Design", "price": 25, "rating": 4.6 },
+    { "id": 22, "title": "Git Version Control", "slug": "git-control", "description": "Manage code history and collaboration.", "thumbnail": "https://placehold.co/600x400?text=Git", "difficulty": "Beginner", "category": "Tools", "price": 0, "rating": 4.9 },
+    { "id": 23, "title": "Swift & iOS", "slug": "swift-ios", "description": "Build apps for iPhone and iPad.", "thumbnail": "https://placehold.co/600x400?text=iOS", "difficulty": "Advanced", "category": "Mobile", "price": 90, "rating": 4.7 },
+    { "id": 24, "title": "Flutter", "slug": "flutter", "description": "Build natively compiled apps for mobile.", "thumbnail": "https://placehold.co/600x400?text=Flutter", "difficulty": "Intermediate", "category": "Mobile", "price": 60, "rating": 4.8 },
+    { "id": 25, "title": "React Native", "slug": "react-native", "description": "Mobile apps using React.", "thumbnail": "https://placehold.co/600x400?text=R-Native", "difficulty": "Intermediate", "category": "Mobile", "price": 70, "rating": 4.6 }
   ],
   "lessons": [
-    {
-      "id": 1,
-      "courseId": 1,
-      "title": "Introduction to HTML Tags",
-      "type": "video",
-      "duration": "10:05",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-1",
-      "content": "In this lesson, we will cover <div>, <span>, and semantic tags."
-    },
-    {
-      "id": 2,
-      "courseId": 1,
-      "title": "Styling with CSS",
-      "type": "article",
-      "duration": "5 min read",
-      "isFree": true,
-      "content": "CSS is used to style and layout web pages. Learn about colors and fonts."
-    },
-    {
-      "id": 3,
-      "courseId": 1,
-      "title": "Flexbox Layouts",
-      "type": "interactive",
-      "duration": "15:00",
-      "isFree": false,
-      "content": "Practice aligning items using display: flex;"
-    },
-    {
-      "id": 4,
-      "courseId": 1,
-      "title": "CSS Grid System",
-      "type": "video",
-      "duration": "20:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-2",
-      "content": "Advanced 2-dimensional layouts using Grid."
-    },
-    {
-      "id": 5,
-      "courseId": 2,
-      "title": "Variables: let vs const",
-      "type": "video",
-      "duration": "08:30",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-3",
-      "content": "Understanding scope and variable declaration."
-    },
-    {
-      "id": 6,
-      "courseId": 2,
-      "title": "Array Methods (Map, Filter)",
-      "type": "article",
-      "duration": "10 min read",
-      "isFree": false,
-      "content": "Deep dive into functional programming methods in JS."
-    },
-    {
-      "id": 7,
-      "courseId": 2,
-      "title": "DOM Manipulation",
-      "type": "video",
-      "duration": "25:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-4",
-      "content": "How to change HTML elements using JavaScript."
-    },
-    {
-      "id": 8,
-      "courseId": 2,
-      "title": "JS Logic Quiz",
-      "type": "quiz",
-      "duration": "15 min",
-      "isFree": false,
-      "content": "Test your knowledge on loops and conditionals."
-    },
-    {
-      "id": 9,
-      "courseId": 3,
-      "title": "React Components",
-      "type": "video",
-      "duration": "12:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-5",
-      "content": "Building your first reusable UI component."
-    },
-    {
-      "id": 10,
-      "courseId": 3,
-      "title": "useState and useEffect",
-      "type": "video",
-      "duration": "30:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-6",
-      "content": "Managing state and side effects in React."
-    },
-    {
-      "id": 11,
-      "courseId": 3,
-      "title": "React Router",
-      "type": "article",
-      "duration": "8 min read",
-      "isFree": false,
-      "content": "How to create multi-page SPAs."
-    },
-    {
-      "id": 12,
-      "courseId": 4,
-      "title": "Setting up Node.js",
-      "type": "article",
-      "duration": "5 min read",
-      "isFree": true,
-      "content": "Installation and Hello World."
-    },
-    {
-      "id": 13,
-      "courseId": 4,
-      "title": "Express Middleware",
-      "type": "video",
-      "duration": "18:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-7",
-      "content": "How the request-response cycle works."
-    },
-    {
-      "id": 14,
-      "courseId": 4,
-      "title": "Connecting MongoDB",
-      "type": "video",
-      "duration": "22:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-8",
-      "content": "Using Mongoose to talk to your database."
-    },
-    {
-      "id": 15,
-      "courseId": 5,
-      "title": "Python Syntax",
-      "type": "video",
-      "duration": "10:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-9",
-      "content": "Indentation, variables, and loops."
-    },
-    {
-      "id": 16,
-      "courseId": 5,
-      "title": "Pandas Dataframes",
-      "type": "interactive",
-      "duration": "20:00",
-      "isFree": false,
-      "content": "Load CSVs and manipulate tables."
-    },
-    {
-      "id": 17,
-      "courseId": 5,
-      "title": "Matplotlib Charts",
-      "type": "video",
-      "duration": "15:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-10",
-      "content": "Visualizing data effectively."
-    },
-    {
-      "id": 18,
-      "courseId": 6,
-      "title": "Figma Basics",
-      "type": "video",
-      "duration": "12:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-11",
-      "content": "Frames, groups, and basic shapes."
-    },
-    {
-      "id": 19,
-      "courseId": 6,
-      "title": "Auto Layout",
-      "type": "interactive",
-      "duration": "25:00",
-      "isFree": false,
-      "content": "Creating responsive components in Figma."
-    },
-    {
-      "id": 20,
-      "courseId": 6,
-      "title": "Color Theory",
-      "type": "article",
-      "duration": "7 min read",
-      "isFree": false,
-      "content": "Choosing a palette that works."
-    },
-    {
-      "id": 21,
-      "courseId": 7,
-      "title": "What is Docker?",
-      "type": "video",
-      "duration": "08:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-12",
-      "content": "Concept of containers vs virtual machines."
-    },
-    {
-      "id": 22,
-      "courseId": 7,
-      "title": "Writing Dockerfiles",
-      "type": "code",
-      "duration": "15:00",
-      "isFree": false,
-      "content": "Practice writing a Dockerfile for a Node app."
-    },
-    {
-      "id": 23,
-      "courseId": 7,
-      "title": "Kubernetes Pods",
-      "type": "video",
-      "duration": "30:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-13",
-      "content": "Orchestrating containers."
-    },
-    {
-      "id": 24,
-      "courseId": 8,
-      "title": "SELECT and FROM",
-      "type": "video",
-      "duration": "05:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-14",
-      "content": "Basic queries."
-    },
-    {
-      "id": 25,
-      "courseId": 8,
-      "title": "Joins (Inner, Left, Right)",
-      "type": "interactive",
-      "duration": "20:00",
-      "isFree": false,
-      "content": "Combining data from multiple tables."
-    },
-    {
-      "id": 26,
-      "courseId": 8,
-      "title": "Database Normalization",
-      "type": "article",
-      "duration": "15 min read",
-      "isFree": false,
-      "content": "Structuring data to avoid redundancy."
-    },
-    {
-      "id": 27,
-      "courseId": 9,
-      "title": "Git Init & Commit",
-      "type": "video",
-      "duration": "10:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-15",
-      "content": "Your first repository."
-    },
-    {
-      "id": 28,
-      "courseId": 9,
-      "title": "Branching Strategies",
-      "type": "video",
-      "duration": "15:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-16",
-      "content": "Feature branches and main protection."
-    },
-    {
-      "id": 29,
-      "courseId": 9,
-      "title": "Resolving Conflicts",
-      "type": "interactive",
-      "duration": "10:00",
-      "isFree": false,
-      "content": "Fixing merge conflicts in code."
-    },
-    {
-      "id": 30,
-      "courseId": 10,
-      "title": "C# Syntax",
-      "type": "video",
-      "duration": "12:00",
-      "isFree": true,
-      "videoUrl": "https://www.youtube.com/embed/dummy-17",
-      "content": "Types, classes, and namespaces."
-    },
-    {
-      "id": 31,
-      "courseId": 10,
-      "title": "LINQ Queries",
-      "type": "code",
-      "duration": "20:00",
-      "isFree": false,
-      "content": "Querying collections in C#."
-    },
-    {
-      "id": 32,
-      "courseId": 10,
-      "title": "ASP.NET Core MVC",
-      "type": "video",
-      "duration": "35:00",
-      "isFree": false,
-      "videoUrl": "https://www.youtube.com/embed/dummy-18",
-      "content": "Model View Controller architecture."
-    }
-  ],
-  "reviews": [
-    {
-      "id": 1,
-      "courseId": 1,
-      "userId": 1,
-      "rating": 5,
-      "comment": "As the admin, I tested this course and it is highly recommended for beginners!",
-      "date": "2023-11-20"
-    }
+    { "id": 1, "courseId": 1, "title": "Semantic HTML", "type": "video", "duration": "10:00" },
+    { "id": 2, "courseId": 1, "title": "Forms & Inputs", "type": "article", "duration": "5 min" },
+    { "id": 3, "courseId": 2, "title": "Flexbox Guide", "type": "video", "duration": "15:00" },
+    { "id": 4, "courseId": 2, "title": "CSS Grid", "type": "interactive", "duration": "20:00" },
+    { "id": 5, "courseId": 3, "title": "Arrow Functions", "type": "video", "duration": "08:00" },
+    { "id": 6, "courseId": 4, "title": "JSX Syntax", "type": "article", "duration": "6 min" },
+    { "id": 7, "courseId": 5, "title": "Vue Directives", "type": "video", "duration": "12:00" },
+    { "id": 8, "courseId": 6, "title": "Angular CLI", "type": "code", "duration": "10:00" },
+    { "id": 9, "courseId": 7, "title": "Express Routing", "type": "video", "duration": "18:00" },
+    { "id": 10, "courseId": 8, "title": "Python Lists", "type": "interactive", "duration": "15:00" },
+    { "id": 11, "courseId": 9, "title": "Django Models", "type": "video", "duration": "25:00" },
+    { "id": 12, "courseId": 10, "title": "Dep. Injection", "type": "video", "duration": "30:00" },
+    { "id": 13, "courseId": 11, "title": "LINQ Basics", "type": "code", "duration": "20:00" },
+    { "id": 14, "courseId": 12, "title": "Goroutines", "type": "video", "duration": "15:00" },
+    { "id": 15, "courseId": 13, "title": "Ownership", "type": "article", "duration": "15 min" },
+    { "id": 16, "courseId": 14, "title": "Blade Templates", "type": "video", "duration": "12:00" },
+    { "id": 17, "courseId": 15, "title": "JOIN Types", "type": "interactive", "duration": "20:00" },
+    { "id": 18, "courseId": 16, "title": "Documents", "type": "article", "duration": "8 min" },
+    { "id": 19, "courseId": 17, "title": "DataFrames", "type": "code", "duration": "25:00" },
+    { "id": 20, "courseId": 18, "title": "Dockerfiles", "type": "video", "duration": "15:00" },
+    { "id": 21, "courseId": 19, "title": "Pods & Nodes", "type": "video", "duration": "20:00" },
+    { "id": 22, "courseId": 20, "title": "S3 Buckets", "type": "article", "duration": "10 min" },
+    { "id": 23, "courseId": 21, "title": "Auto Layout", "type": "interactive", "duration": "30:00" },
+    { "id": 24, "courseId": 22, "title": "Merge Conflicts", "type": "video", "duration": "12:00" },
+    { "id": 25, "courseId": 23, "title": "SwiftUI Views", "type": "code", "duration": "18:00" },
+    { "id": 26, "courseId": 24, "title": "Widgets 101", "type": "video", "duration": "15:00" },
+    { "id": 27, "courseId": 25, "title": "Native Modules", "type": "article", "duration": "10 min" }
   ]
 }
