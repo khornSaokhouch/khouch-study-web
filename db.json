@@ -441,35 +441,6 @@
       "content": "Model View Controller architecture."
     }
   ],
-  "enrollments": [
-    {
-      "id": 1,
-      "userId": 1,
-      "courseId": 1,
-      "enrolledDate": "2023-10-15",
-      "progressPercentage": 100,
-      "completedLessonIds": [1, 2, 3, 4],
-      "status": "completed"
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "courseId": 2,
-      "enrolledDate": "2023-11-01",
-      "progressPercentage": 25,
-      "completedLessonIds": [5],
-      "status": "in-progress"
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "courseId": 7,
-      "enrolledDate": "2023-12-05",
-      "progressPercentage": 0,
-      "completedLessonIds": [],
-      "status": "enrolled"
-    }
-  ],
   "reviews": [
     {
       "id": 1,
